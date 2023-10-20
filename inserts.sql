@@ -26,36 +26,35 @@ VALUES
 INSERT INTO professor (nome_prof, especialidade_prof, data_admissao_prof)
 VALUES
 	('Eduardo Nascimento', 'Tecnologia da Informação', '2023-01-15'),
-    ('Matheus Michilino', 'Mecatrônica e Interfaces Robóticas', '2020-01-01'),
-    ('Rafael Selvagio', 'Tecnologia da Informação', '2023-06-01'),
-    ('Rafael Rizzi', 'Eng. Elétrica', '2022-01-01');
+	('Matheus Michilino', 'Mecatrônica e Interfaces Robóticas', '2020-01-01'),
+	('Rafael Selvagio', 'Tecnologia da Informação', '2023-06-01'),
+	('Rafael Rizzi', 'Eng. Elétrica', '2022-01-01');
 
 INSERT INTO curso (nome_curso, duracao_curso)
 VALUES
 	('Técnico em Analise de Desenvolvimento de Sistemas', 18),
-    ('Técnico em Mecatrônica', 24),
-    ('Técnico em Eletrônica', 24),
-    ('Técnico em Administração', 18),
-    ('Técnico em Mecânica', 20);
-
+	('Técnico em Mecatrônica', 24),
+	('Técnico em Eletrônica', 24),
+	('Técnico em Administração', 18),
+	('Técnico em Mecânica', 20);
 
 INSERT INTO turma (qtd_alunos_tur, periodo_tur, semestre_tur)
 VALUES
 	(35, 'Manhã', '2 Semestre'),
-    (35, 'Tarde', '2 Semestre'),
-    (18, 'Manhã', '2 Semestre'),
-    (20, 'Tarde', '4 Semestre'),
-    (20, 'Tarde', '1 Semestre'),
-    (36, 'Tarde', '2 Semestre');
+	(35, 'Tarde', '2 Semestre'),
+	(18, 'Manhã', '2 Semestre'),
+	(20, 'Tarde', '4 Semestre'),
+	(20, 'Tarde', '1 Semestre'),
+	(36, 'Tarde', '2 Semestre');
 
 INSERT INTO aula (codigo_professor, codigo_disciplina, codigo_turma, data_aula)
 VALUES
 	(3, 1, 1, '2023-10-10'),
-    (1, 2, 2, '2023-10-11'),
-    (2, 3, 1, '2023-10-12'),
-    (1, 2, 1, '2023-10-13'),
-    (2, 3, 2, '2023-10-15'),
-    (3, 1, 2, '2023-10-16');
+	(1, 2, 2, '2023-10-11'),
+	(2, 3, 1, '2023-10-12'),
+	(1, 2, 1, '2023-10-13'),
+	(2, 3, 2, '2023-10-15'),
+	(3, 1, 2, '2023-10-16');
 
 INSERT INTO matricula (codigo_curso, codigo_turma)
 VALUES
