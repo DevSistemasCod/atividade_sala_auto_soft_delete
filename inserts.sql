@@ -60,33 +60,3 @@ INSERT INTO matricula (codigo_curso, codigo_turma)
 VALUES
 (1, 1),	
 (2, 2);
-
--- Faltas do aluno Fernando Pereira na disciplina "Programação Web para Back-End"
-INSERT INTO faltas (numero_matricula, codigo_disciplina, data_falta, quantidade_faltas)
-VALUES
-(1, 1, '2023-10-10', 3),
-(1, 1, '2023-10-12', 2);
-
--- Faltas do aluno Juliana Santos Silva na disciplina "Programação Web para Front-End"
-INSERT INTO faltas (numero_matricula, codigo_disciplina, data_falta, quantidade_faltas)
-VALUES
-(2, 2, '2023-10-11', 1),
-(2, 2, '2023-10-13', 2);
-
--- Faltas do aluno Mariana Silva Almeida na disciplina "Interface para Dispositivos Móveis"
-INSERT INTO faltas (numero_matricula, codigo_disciplina, data_falta, quantidade_faltas)
-VALUES
-(3, 3, '2023-10-10', 2),
-(3, 3, '2023-10-12', 1);
-
--- Faltas do aluno Marcelo Mendes na disciplina "Banco de Dados"
-INSERT INTO faltas (numero_matricula, codigo_disciplina, data_falta, quantidade_faltas)
-VALUES
-(4, 4, '2023-10-11', 1),
-(4, 4, '2023-10-12', 2);
-
--- Faltas do aluno Luana Oliveira na disciplina "Redes de Computadores"
-INSERT INTO faltas (numero_matricula, codigo_disciplina, data_falta, quantidade_faltas)
-VALUES
-(5, 5, '2023-10-10', 2),
-(5, 5, '2023-10-15', 1);
