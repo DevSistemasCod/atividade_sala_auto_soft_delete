@@ -72,14 +72,3 @@ CREATE TABLE aula (
     CONSTRAINT fk_disciplina_aula FOREIGN KEY (codigo_disciplina) REFERENCES disciplina(codigo_disc),
     CONSTRAINT fk_turma_aula FOREIGN KEY (codigo_turma) REFERENCES turma(codigo_tur)
 );
-
-CREATE TABLE faltas (
-    id_falta BIGINT AUTO_INCREMENT PRIMARY KEY,
-    numero_matricula BIGINT NOT NULL,
-    codigo_disciplina BIGINT NOT NULL,
-    data_falta DATE NOT NULL,
-    quantidade_faltas INT NOT NULL,
-    status_falta BOOL DEFAULT 1,
-    CONSTRAINT fk_matricula_falta FOREIGN KEY (numero_matricula) REFERENCES aluno(num_matricula_aluno),
-    CONSTRAINT fk_disciplina_falta FOREIGN KEY (codigo_disciplina) REFERENCES disciplina(codigo_disc)
-);
