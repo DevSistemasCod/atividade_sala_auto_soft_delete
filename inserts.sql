@@ -59,4 +59,7 @@ VALUES
 INSERT INTO matricula (codigo_curso, codigo_turma)
 VALUES
 (1, 1),	
-(2, 2);
+(2, 2),
+(1, 3),
+(1, 4),
+(2, 1);
